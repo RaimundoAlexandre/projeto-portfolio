@@ -26,6 +26,7 @@ body{
 #perfil img{
     text-align: center;
     width: 150px;
+    border-radius: 50%;
 }
 #conteudo-perfil{
     text-align: center;
@@ -47,6 +48,7 @@ body{
     background-color: var(--bg-cards);
     width: 400px;
     padding: 8px;
+    padding-bottom: 10px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
@@ -62,4 +64,18 @@ body{
     margin-left: 5px;
     text-align: center;
     width: 100px;
+}
+
+.grade2{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: -72vh;
+}
+
+#projetos{
+    background-color: var(--bg-cards);
+    width: 400px;
+    border-radius: 15px;
+    padding: 0.5px;
 }
