@@ -14,7 +14,9 @@ body{
     color: var(--text-color);
     font-family: 'Merriweather Sans', sans-serif;
   }
-
+main{
+    max-width: 90vw;
+}
 #perfil{
     background-color: var(--bg-cards);
     width: 400px;
@@ -71,11 +73,36 @@ body{
     position: relative;
     left: 50%;
     top: -72vh;
+
 }
 
 #projetos{
     background-color: var(--bg-cards);
-    width: 400px;
+    
     border-radius: 15px;
     padding: 0.5px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    
+}
+
+#projeto1{
+    background-color: var(--bg-cards);
+    width: 400px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+#projeto2{
+    display: inline-block;
+    position: relative;
+    right: -200px;
+    top: -110px;
+    background-color: var(--bg-cards);
+    width: 400px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
